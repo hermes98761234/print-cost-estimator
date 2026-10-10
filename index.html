@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Print Cost Estimator: weight, time and price from an STL</title>
+    <meta name="description" content="Free 3D print cost calculator: load an STL, pick filament (PLA, PETG, ABS, TPU, resin), and get material weight, print time and a full quote with electricity, depreciation, labor and markup. Runs in your browser." />
+    <meta name="keywords" content="3d print cost calculator, stl volume, filament weight, print time estimate, 3d printing quote, gcode time, infill, pla petg abs" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/print-cost-estimator/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Print cost" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="3D Print Cost Estimator" />
+    <meta property="og:url" content="https://hermes98761234.github.io/print-cost-estimator/" />
+    <meta property="og:title" content="What will this 3D print cost?" />
+    <meta property="og:description" content="Weight, print time and a price quote from an STL file, in your browser." />
+    <meta property="og:image" content="https://hermes98761234.github.io/print-cost-estimator/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="A 3D model with the headline: what will this 3D print cost?" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="What will this 3D print cost?" />
+    <meta name="twitter:description" content="Weight, print time and a price quote from an STL. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/print-cost-estimator/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "3D Print Cost Estimator",
+        "url": "https://hermes98761234.github.io/print-cost-estimator/",
+        "description": "Estimates filament or resin use, print time and cost of a 3D print from an STL file, and produces a quote.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
